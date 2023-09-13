@@ -2,19 +2,21 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-// import corpcommentImg from "@/public/corpcomment.png";
-// import rmtdevImg from "@/public/rmtdev.png";
-// import wordanalyticsImg from "@/public/wordanalytics.png";
+import airtalk from "@/public/images/airtalk.png";
+import ecom from "@/public/images/ecom.png";
+import ecomAdmin from "@/public/images/ecom-admin.png";
+import youtubeApp from "@/public/images/youtube.png";
+import tipCal from "@/public/images/tip-cal.png";
 
 export const links = [
   {
     name: "Home",
     hash: "#home",
   },
-  {
-    name: "About",
-    hash: "#about",
-  },
+  // {
+  //   name: "About",
+  //   hash: "#about",
+  // },
   {
     name: "Projects",
     hash: "#projects",
@@ -62,25 +64,39 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Airtalk Wireless",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    // imageUrl: corpcommentImg,
+      "I worked as a front-end developer on this project for over 1 year. Big e-commerce website working with Government contract.",
+    tags: ["React", "Typescript", "Laravel", "Ant Design", "SCSS"],
+    imageUrl: airtalk,
   },
   {
-    title: "rmtDev",
+    title: "E-Commerce",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    // imageUrl: rmtdevImg,
+      "Full Stack Web App written in MERN stack. Users can buy products, modify cart and checkout.",
+    tags: ["React", "Nodejs", "Expressjs", "MongoDb", "Material UI", "Redux Toolkit", "Stripejs"],
+    imageUrl: ecom,
   },
   {
-    title: "Word Analytics",
+    title: "Admin Dashboard",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    // imageUrl: wordanalyticsImg,
+      "Connected to the same database with the e-commerce app, users will be able to modify products/orders with protected routes.",
+    tags: ["React", "Expressjs", "Nodejs", "MongoDb", "Material UI"],
+    imageUrl: ecomAdmin,
+  },
+  {
+    title: "Youtube",
+    description:
+      "Youtube Clone.",
+    tags: ["React", "Material UI", "react-router-dom", "Axios"],
+    imageUrl: youtubeApp,
+  },
+  {
+    title: "Tip Calculator",
+    description:
+      "Simple app to quickly calculate the tip for each person.",
+    tags: ["React", "CSS"],
+    imageUrl: tipCal,
   },
 ] as const;
 
@@ -94,14 +110,12 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Bootstrap",
+  "jQuery",
+  "Ant Design",
+  "Material UI",
+  "SCSS/SASS",
 ] as const;
