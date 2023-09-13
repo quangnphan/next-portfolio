@@ -37,28 +37,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "University of Houston",
+    location: "Houston, TX",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 4 years of studying. Actively looking for a job with a bachelor's degree in Computer Information Systems.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020",
+  },
+  {
+    title: "IT Support",
+    location: "Houston, TX",
+    description:
+      "I worked as an IT support in a startup company. I also learnt about web development.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Mar 2022 - May 2022",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
     location: "Houston, TX",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a front-end developer. My stack includes React, Material UI, Ant Design, and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Mar 2022 - present",
   },
 ] as const;
 
@@ -66,7 +66,7 @@ export const projectsData = [
   {
     title: "Airtalk Wireless",
     description:
-      "I worked as a front-end developer on this project for over 1 year. Big e-commerce website working with Government contract.",
+      "I worked as a front-end developer on this project for over 1 year at HTH Communications. Big e-commerce website working with Government contract.",
     tags: ["React", "Typescript", "Laravel", "Ant Design", "SCSS"],
     imageUrl: airtalk,
   },
@@ -74,20 +74,20 @@ export const projectsData = [
     title: "E-Commerce",
     description:
       "Full Stack Web App written in MERN stack. Users can buy products, modify cart and checkout.",
-    tags: ["React", "Nodejs", "Expressjs", "MongoDb", "Material UI", "Redux Toolkit", "Stripejs"],
+    tags: ["React", "Nodejs", "Expressjs", "MongoDB", "Material UI", "Redux Toolkit", "Stripejs"],
     imageUrl: ecom,
   },
   {
     title: "Admin Dashboard",
     description:
       "Connected to the same database with the e-commerce app, users will be able to modify products/orders with protected routes.",
-    tags: ["React", "Expressjs", "Nodejs", "MongoDb", "Material UI"],
+    tags: ["React", "Expressjs", "Nodejs", "MongoDB", "Material UI"],
     imageUrl: ecomAdmin,
   },
   {
     title: "Youtube",
     description:
-      "Youtube Clone.",
+      "Youtube Clone using React and Material UI. Fetched data using Youtube api v3.",
     tags: ["React", "Material UI", "react-router-dom", "Axios"],
     imageUrl: youtubeApp,
   },
