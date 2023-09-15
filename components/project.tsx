@@ -4,6 +4,8 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { FaGithubSquare } from "react-icons/fa";
+import { CgWebsite } from "react-icons/cg";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -12,6 +14,8 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  linkWeb,
+  linkGit
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -63,6 +67,26 @@ export default function Project({
               </li>
             ))}
           </ul>
+          <div className="flex items-center gap-2 mt-4 font-medium">
+          {linkWeb && (
+          <a
+            href={linkWeb}
+            target="_blank"
+            className="bg-white p-2 text-gray-700 flex items-center gap-2 text-[0.8rem] rounded-md focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          >
+            Website
+          </a>
+        )}
+        {linkGit && (
+          <a
+            href={linkGit}
+            target="_blank"
+            className="bg-white p-2 text-gray-700 flex items-center gap-2 text-[0.8rem] rounded-md focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          >
+             Github
+          </a>
+        )}
+          </div>
         </div>
       </section>
     </motion.div>

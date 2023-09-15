@@ -62,23 +62,29 @@ export const projectsData = [
   {
     title: "Airtalk Wireless",
     description:
-      "I worked as a front-end developer on this project for over 1 year at HTH Communications. Big e-commerce website working with Government contract.",
+      "I worked as a front-end developer on this project at my previous company. E-commerce website working with Government contract.",
     tags: ["React", "Typescript", "Laravel", "Ant Design", "SCSS"],
     imageUrl: airtalk,
+    linkWeb: "https://airtalkwireless.com/",
+    linkGit: ""
   },
   {
     title: "E-Commerce",
     description:
-      "Full Stack Web App written in MERN stack. Users can buy products, modify cart and checkout.",
+      "Full stack e-commerce website written in MERN stack.",
     tags: ["React", "Nodejs", "Expressjs", "MongoDB", "Material UI", "Redux Toolkit", "Stripejs"],
     imageUrl: ecom,
+    linkWeb: "https://mernstack-ecommerce-03q21.netlify.app/",
+    linkGit: "https://github.com/quangnphan/mern-stack-ecommerce"
   },
   {
     title: "Admin Dashboard",
     description:
-      "Connected to the same database with the e-commerce app, users will be able to modify products/orders with protected routes.",
+      "CMS for the e-commerce site with protected routes, syncing between two apps.",
     tags: ["React", "Expressjs", "Nodejs", "MongoDB", "Material UI"],
     imageUrl: ecomAdmin,
+    linkWeb: "https://admin-ecom-qp0321.netlify.app/",
+    linkGit: "https://github.com/quangnphan/admin-ecommerce"
   },
   {
     title: "Youtube",
@@ -86,6 +92,8 @@ export const projectsData = [
       "Youtube Clone using React and Material UI. Fetched data using Youtube api v3.",
     tags: ["React", "Material UI", "react-router-dom", "Axios"],
     imageUrl: youtubeApp,
+    linkWeb: "https://youtube-appppp.netlify.app/",
+    linkGit: "https://github.com/quangnphan/youtube-clone-v2"
   },
   {
     title: "Tip Calculator",
@@ -93,6 +101,8 @@ export const projectsData = [
       "Simple app to quickly calculate the tip for each person.",
     tags: ["React", "CSS"],
     imageUrl: tipCal,
+    linkWeb: "https://quangnphan.github.io/tip-calculator/",
+    linkGit: "https://github.com/quangnphan/tip-calculator"
   },
 ] as const;
 
