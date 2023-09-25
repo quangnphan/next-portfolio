@@ -2,11 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import airtalk from "@/public/images/airtalk.png";
-import ecom from "@/public/images/ecom.png";
-import ecomAdmin from "@/public/images/ecom-admin.png";
-import youtubeApp from "@/public/images/youtube.png";
-import tipCal from "@/public/images/tip-cal.png";
+import airtalk from "@/public/images/airtalk.jpg";
+import ecom from "@/public/images/ecom.jpg";
+import ecomAdmin from "@/public/images/ecom-admin.jpg";
+import youtubeApp from "@/public/images/youtube.jpg";
+import tipCal from "@/public/images/tip-cal.jpg";
 
 export const links = [
   {
