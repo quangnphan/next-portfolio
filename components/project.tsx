@@ -31,9 +31,9 @@ export default function Project({
         scale: scaleProgess,
         opacity: opacityProgess,
       }}
-      className="group mb-3 sm:mb-8 last:mb-0"
+      className="last:mb-0"
     >
-      <section className="bg-gray-100 max-w-[40rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[21rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
+      <section className="bg-gray-100 max-w-[40rem] border border-black/5 rounded-lg overflow-hidden sm:pr-4 relative sm:h-[21rem] hover:bg-gray-200 transition sm:group-even:pl-4 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
         <Image
           src={imageUrl}
           alt="Project I worked on"
