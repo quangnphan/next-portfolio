@@ -14,6 +14,10 @@ export const links = [
     hash: "#home",
   },
   {
+    name: "About",
+    hash: "#about",
+  },
+  {
     name: "Projects",
     hash: "#projects",
   },
@@ -62,7 +66,7 @@ export const projectsData = [
   {
     title: "Airtalk Wireless",
     description:
-      "I worked as a front-end developer on this project at my previous company. E-commerce website working with Government contract.",
+      "I worked as a front-end developer on this project. E-commerce website working with Government program.",
     tags: ["React", "Typescript", "Laravel", "Ant Design", "SCSS"],
     imageUrl: airtalk,
     linkWeb: "https://airtalkwireless.com/",
