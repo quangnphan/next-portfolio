@@ -1,13 +1,30 @@
 "use client";
 
-import React from "react";
+import React,{useEffect,useState} from "react";
 import SectionHeading from "./section-heading";
 import { projectsData } from "@/lib/data";
 import Project from "./project";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function Projects() {
-  const { ref } = useSectionInView("Projects", 0.5);
+  const [inViewThreshold, setInViewThreshold] = useState(0.4);
+
+  // Check the screen width and set the threshold
+  useEffect(() => {
+    const handleResize = () => {
+      const threshold = window.innerWidth < 768 ? 0.2 : 0.4;
+      setInViewThreshold(threshold);
+    };
+
+    handleResize(); // Call it initially
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const { ref } = useSectionInView("Projects", inViewThreshold);
 
   return (
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
