@@ -5,6 +5,7 @@ import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -53,13 +54,13 @@ export default function Project({
 
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
           <h3 className="text-2xl font-semibold">{title}</h3>
-          <p className="mt-2 leading-relaxed text-gray-800 dark:text-white/70">
+          <p className="mt-2 leading-relaxed text-gray-900 dark:text-white/70">
             {description}
           </p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
               <li
-                className="bg-black/[0.8] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
+                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
                 key={index}
               >
                 {tag}
@@ -71,7 +72,7 @@ export default function Project({
               <a
                 href={linkWeb}
                 target="_blank"
-                className="bg-white p-2 text-gray-800 flex items-center gap-2 text-[1rem] rounded-md focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                className="bg-white p-2 text-gray-900 flex items-center gap-2 text-[1rem] rounded-md focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 font-semibold"
               >
                 Website <BsFillArrowRightCircleFill />
               </a>
@@ -80,9 +81,9 @@ export default function Project({
               <a
                 href={linkGit}
                 target="_blank"
-                className="bg-white p-2 text-gray-800 flex items-center gap-2 text-[1rem] rounded-md focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                className="bg-white p-2 text-gray-900 flex items-center gap-2 text-[1rem] rounded-md focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 font-semibold"
               >
-                Github <BsFillArrowRightCircleFill />
+                Source <BsGithub />
               </a>
             )}
           </div>
