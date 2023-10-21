@@ -16,7 +16,4 @@ module.exports = {
   },
   plugins: [],
   darkMode: "class",
-  experimental: {
-    optimizeUniversalDefaults: true
-  }
 };
