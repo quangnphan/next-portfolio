@@ -118,6 +118,8 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "REST Api",
+  "GraphQL",
   "Git",
   "Tailwind",
   "MongoDB",
