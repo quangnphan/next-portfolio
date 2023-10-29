@@ -4,7 +4,6 @@
 
 html {
   --line-color: #e5e7eb;
-  -webkit-overflow-scrolling: auto;
 }
 
 html.dark {
