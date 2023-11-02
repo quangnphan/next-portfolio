@@ -19,10 +19,10 @@ export default function About() {
     >
       <SectionHeading>What I do</SectionHeading>
       <p className="mb-3">
-        With years of experience as a ReactJS developer and worked in
+        With years of experience working as a ReactJS developer in
         Telecommunications industry, I've had the privilege of contributing to
-        the development of web applications that have served over 350,000
-        customers through a government program. This experience has allowed me
+        the development of web applications that have served over 400,000
+        customers through a Government program. This experience has allowed me
         to refine my skills in crafting user-friendly and efficient interfaces.
       </p>
     </motion.section>
