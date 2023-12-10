@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>What I do</SectionHeading>
       <p className="mb-3">
-        With years of experience working as a ReactJS developer in
+        With years of experience working as a React developer in Software and
         Telecommunications industry, I've had the privilege of contributing to
         the development of web applications that have served over 400,000
         customers through a Government program. This experience has allowed me

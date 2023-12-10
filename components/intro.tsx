@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import profileImg from "@/public/images/quang.jpeg";
+import profileImg from "@/public/images/quang.jpg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -63,9 +63,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I&apos;m Quang.</span> I&apos;m a{" "}
-        <span className="font-bold">front-end developer.</span> My focus is{" "}
-        <span className="underline">React/Next</span>.
+        <span className="font-bold">Hello, I&apos;m Quang.</span> A{" "}
+        <span className="font-bold">front-end software developer.</span> My focus is Single-page Applications using{" "}
+        <span className="underline">React/Nextjs</span>.
       </motion.h1>
 
       <motion.div
@@ -78,7 +78,7 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group dark:bg-gray-950 bg-gray-900 text-white px-7 py-3 flex items-center justify-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group dark:bg-white/10 bg-gray-900 text-white px-7 py-3 flex items-center justify-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());

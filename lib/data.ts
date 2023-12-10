@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { SiTypescript } from "react-icons/si";
 import airtalk from "@/public/images/airtalk.jpg";
 import ecom from "@/public/images/ecom.jpg";
 import ecomAdmin from "@/public/images/ecom-admin.jpg";
@@ -56,9 +57,17 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Houston, TX",
     description:
-      "I'm now a front-end developer. My stack includes React, Material UI, Ant Design, and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a front-end developer. My stack includes React, Material UI, Ant Design, and MongoDB.",
     icon: React.createElement(FaReact),
-    date: "Mar 2022 - present",
+    date: "Mar 2022 - Apr 2023",
+  },
+  {
+    title: "Software Developer",
+    location: "The Woodlands, TX",
+    description:
+      "Building ERP software for businesses. Working with Typescript, React, Kendo UI and ActiveReportsJS.",
+    icon: React.createElement(SiTypescript),
+    date: "Nov 2023 - present",
   },
 ] as const;
 
@@ -118,7 +127,7 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
-  "REST Api",
+  "Rest API",
   "GraphQL",
   "Git",
   "Tailwind",
@@ -129,5 +138,7 @@ export const skillsData = [
   "jQuery",
   "Ant Design",
   "Material UI",
+  "Kendo UI",
   "SCSS/SASS",
+  "ActiveReportsJS"
 ] as const;
