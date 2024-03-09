@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import { SiTypescript } from "react-icons/si";
+import { FaCalculator } from "react-icons/fa";
 import airtalk from "@/public/images/airtalk.jpg";
 import ecom from "@/public/images/ecom.jpg";
 import ecomAdmin from "@/public/images/ecom-admin.jpg";
@@ -41,7 +41,7 @@ export const experiencesData = [
     title: "University of Houston",
     location: "Houston, TX",
     description:
-      "I graduated after 4 years of studying. Actively looking for a job with a bachelor's degree in Computer Information Systems.",
+      "Graduated with a Bachelor of Science degree in Computer Information Systems.",
     icon: React.createElement(LuGraduationCap),
     date: "2020",
   },
@@ -49,7 +49,7 @@ export const experiencesData = [
     title: "IT Support",
     location: "Houston, TX",
     description:
-      "I worked as an IT support in a startup company. I also learnt about web development.",
+      "Became an IT Support.",
     icon: React.createElement(CgWorkAlt),
     date: "Mar 2022 - May 2022",
   },
@@ -57,7 +57,7 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Houston, TX",
     description:
-      "I'm now a front-end developer. My stack includes React, Material UI, Ant Design, and MongoDB.",
+      "Worked as a front-end developer in Telecommunication industry. Built E-commerce websites and CRM system using React/Typescript, Nextjs, Ant Design.",
     icon: React.createElement(FaReact),
     date: "Mar 2022 - Apr 2023",
   },
@@ -65,8 +65,8 @@ export const experiencesData = [
     title: "Software Developer",
     location: "The Woodlands, TX",
     description:
-      "Building ERP software for businesses. Working with Typescript, React, Kendo UI and ActiveReportsJS.",
-    icon: React.createElement(SiTypescript),
+      "Joined a startup company building ERP/Accounting application. Written in Typescript, React, Kendo UI and ActiveReportsJS.",
+    icon: React.createElement(FaCalculator),
     date: "Nov 2023 - present",
   },
 ] as const;
@@ -128,7 +128,6 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Rest API",
-  "GraphQL",
   "Git",
   "Tailwind",
   "MongoDB",
