@@ -6,6 +6,7 @@ import type { SectionName } from "./types";
 export function useSectionInView(sectionName: SectionName, threshold = 0.75) {
   const { ref, inView } = useInView({
     threshold,
+    triggerOnce: true
   });
   const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
 
@@ -17,5 +18,6 @@ export function useSectionInView(sectionName: SectionName, threshold = 0.75) {
 
   return {
     ref,
+    inView
   };
 }

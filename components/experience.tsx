@@ -13,19 +13,16 @@ import { useTheme } from "@/context/theme-context";
 import { useInView } from "react-intersection-observer";
 
 export default function Experience() {
-  const { ref: sectionRef } = useSectionInView("Experience", 0.75);
+  const { ref, inView } = useSectionInView("Experience", 0.4);
   const { theme } = useTheme();
 
   return (
-    <section id="experience" ref={sectionRef} className="scroll-mt-28 mb-28 sm:mb-40">
+    <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>My experience</SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => {
-          const { ref: timelineRef, inView } = useInView({
-            triggerOnce: true,
-          });
           return (
-            <div key={index} ref={timelineRef} className='vertical-timeline-element'>
+            <React.Fragment key={index}>
               <VerticalTimelineElement
                 contentStyle={{
                   background:
@@ -56,7 +53,7 @@ export default function Experience() {
                   {item.description}
                 </p>
               </VerticalTimelineElement>
-            </div>
+            </React.Fragment>
           )
         })}
       </VerticalTimeline>
