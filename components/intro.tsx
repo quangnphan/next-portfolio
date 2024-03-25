@@ -64,8 +64,9 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I&apos;m Quang.</span> A{" "}
-        <span className="font-bold">front-end software developer.</span> My focus is Single-page Applications using{" "}
-        <span className="underline">React/Nextjs</span>.
+        <span className="font-bold">front-end software developer.</span> My
+        focus is Single-page Applications (SPAs) using{" "}
+        <span className="underline">React/Nextjs</span> with Typescript.
       </motion.h1>
 
       <motion.div

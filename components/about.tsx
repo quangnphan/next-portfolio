@@ -8,6 +8,8 @@ import { useSectionInView } from "@/lib/hooks";
 export default function About() {
   const { ref } = useSectionInView("About");
 
+  const expYear = new Date().getFullYear() - 2022;
+
   return (
     <motion.section
       ref={ref}
@@ -19,11 +21,13 @@ export default function About() {
     >
       <SectionHeading>What I do</SectionHeading>
       <p className="mb-3">
-        With years of experience working as a React developer in Software and
-        Telecommunications industry, I've had the privilege of contributing to
-        the development of web applications that have served over 400,000
-        customers through a Government program. This experience has allowed me
-        to refine my skills in crafting user-friendly and efficient interfaces.
+        With more than {expYear} years of experience as a React developer in the
+        telecommunications and software industries, I've had the privilege of
+        contributing to the development of various web applications. These
+        include ERP and CRM systems for warehouse management, as well as
+        accounting software that have collectively served over 400,000 customers
+        through a government program. This experience has allowed me to refine
+        my skills in crafting user-friendly and efficient interfaces.
       </p>
     </motion.section>
   );
