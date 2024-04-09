@@ -12,7 +12,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
 
 export default function Experience() {
-  const { ref, inView } = useSectionInView("Experience", 0.7);
+  const { ref } = useSectionInView("Experience", 0.35);
   const { theme } = useTheme();
 
   return (
@@ -44,7 +44,7 @@ export default function Experience() {
                     theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
                   fontSize: "1.5rem",
                 }}
-                visible={inView}
+                visible={true}
               >
                 <h3 className="font-semibold capitalize">{item.title}</h3>
                 <p className="font-normal !mt-0">{item.location}</p>
