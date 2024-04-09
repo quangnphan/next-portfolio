@@ -63,9 +63,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I&apos;m Quang.</span> A{" "}
-        <span className="font-bold">front-end software developer.</span> My
-        focus is Single-page Applications (SPAs) using{" "}
+        <span className="font-bold">Hi, I&apos;m Quang,</span> a{" "}
+        <span className="font-bold">front-end software developer.</span> I build
+        Single-page Applications (SPAs) using{" "}
         <span className="underline">React/Nextjs</span> with Typescript.
       </motion.h1>
 
@@ -79,7 +79,7 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group dark:bg-white/10 bg-gray-900 text-white px-7 py-3 flex items-center justify-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group dark:bg-white/10 bg-zinc-950 text-white px-7 py-3 flex items-center justify-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-zinc-950 active:scale-105 transition"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
