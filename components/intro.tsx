@@ -12,7 +12,7 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 import profileImg from "@/public/images/quang.jpg";
 
 export default function Intro() {
-  const { ref } = useSectionInView("Home", 0.2);
+  const { ref } = useSectionInView("Home", 0.99);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
