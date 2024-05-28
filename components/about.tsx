@@ -21,13 +21,15 @@ export default function About() {
     >
       <SectionHeading>What I do</SectionHeading>
       <p className="mb-3">
-        With more than {expYear} years of experience as a React developer in the
-        telecommunications and software industries, I've had the privilege of
-        contributing to the development of various web applications. These
-        include ERP and CRM systems for warehouse management, as well as
-        accounting software that have collectively served over 400,000 customers
-        through a government program. This experience has allowed me to refine
-        my skills in crafting user-friendly and efficient interfaces.
+        With more than {expYear} years of experience in the software and
+        telecommunications industry as a React Developer, I have successfully
+        built a wide range of web applications, including ERP, CRM, OSS
+        solutions, and specialized accounting platforms. Additionally, I've
+        developed e-commerce applications that have served over 400,000
+        customers through government programs. My expertise spans a diverse tech
+        stack, including JavaScript, React.js, Next.js, TypeScript, Node.js,
+        HTML, CSS, and various UI libraries such as Ant Design, Kendo UI,
+        Material UI, and Tailwind CSS.
       </p>
     </motion.section>
   );
