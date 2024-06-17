@@ -21,13 +21,15 @@ export default function About() {
     >
       <SectionHeading>What I do</SectionHeading>
       <p className="mb-3">
-        With over {expYear} years of experience as a frontend developer in the
-        software and telecommunications industries, I have contributed to the
-        development of diverse web applications, including ERP, CRM, and OSS
-        systems for accounting and warehouse management, as well as an
-        e-commerce website. These applications have collectively served over
-        400,000 customers through a government program. This experience has
-        honed my skills in creating user-friendly and efficient interfaces.
+        With more than {expYear} years of experience in the software and
+        telecommunications industry as a Frontend Developer, I have successfully
+        built a wide range of web applications, including ERP, CRM, OSS
+        solutions, and specialized accounting platforms. Additionally, I've
+        developed e-commerce applications that have served over 400,000
+        customers through government programs. My expertise spans a diverse tech
+        stack, including JavaScript, React.js, Next.js, TypeScript, Node.js,
+        HTML, CSS, and various UI libraries such as Ant Design, Kendo UI,
+        Material UI, and Tailwind CSS.
       </p>
     </motion.section>
   );
