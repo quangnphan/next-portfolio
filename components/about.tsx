@@ -21,7 +21,7 @@ export default function About() {
     >
       <SectionHeading>What I do</SectionHeading>
       <p className="mb-3">
-        Frontend Software Developer with more than ${expYear} years of
+        Frontend Software Developer with more than {expYear} years of
         experience in building web applications, ERP accounting software, CRM,
         warehouse management systems, and e-commerce solutions for U.S.
         Government programs. Proficient in JavaScript, TypeScript, React,

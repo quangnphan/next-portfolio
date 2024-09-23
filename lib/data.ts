@@ -56,7 +56,7 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Houston, TX",
     description:
-      "Worked as a front-end developer in Telecommunication industry. Built E-commerce websites and CRM, warehouse management solutions for U.S. Government programs",
+      "Worked as a front-end developer in Telecommunication industry. Built E-commerce websites, CRM, and warehouse management solutions for U.S. Government programs.",
     icon: React.createElement(FaReact),
     date: "Mar 2022 - Aug 2023",
   },
@@ -64,7 +64,7 @@ export const experiencesData = [
     title: "Software Developer",
     location: "The Woodlands, TX",
     description:
-      "Join a startup building SaaS ERP Accounting software. Written in Typescript, React, Kendo UI and ActiveReportsJS.",
+      "Join a startup, build SaaS ERP Accounting software written in Typescript, React, Kendo UI and ActiveReportsJS.",
     icon: React.createElement(FaCalculator),
     date: "Nov 2023 - present",
   },
