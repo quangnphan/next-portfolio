@@ -48,8 +48,7 @@ export const experiencesData = [
   {
     title: "IT Support",
     location: "Houston, TX",
-    description:
-      "Became an IT Support.",
+    description: "Worked as an IT Support.",
     icon: React.createElement(CgWorkAlt),
     date: "Mar 2022 - May 2022",
   },
@@ -57,15 +56,15 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Houston, TX",
     description:
-      "Worked as a front-end developer in Telecommunication industry. Built E-commerce websites and CRM system using React/Typescript, Nextjs, Ant Design.",
+      "Worked as a front-end developer in Telecommunication industry. Built E-commerce websites, CRM, and warehouse management solutions for U.S. Government programs.",
     icon: React.createElement(FaReact),
-    date: "Mar 2022 - Apr 2023",
+    date: "Mar 2022 - Aug 2023",
   },
   {
     title: "Software Developer",
     location: "The Woodlands, TX",
     description:
-      "Joined a startup company building ERP/Accounting application. Written in Typescript, React, Kendo UI and ActiveReportsJS.",
+      "Join a startup, build SaaS ERP Accounting software written in Typescript, React, Kendo UI and ActiveReportsJS.",
     icon: React.createElement(FaCalculator),
     date: "Nov 2023 - present",
   },
@@ -79,16 +78,23 @@ export const projectsData = [
     tags: ["React", "Typescript", "Laravel", "Ant Design", "SCSS"],
     imageUrl: airtalk,
     linkWeb: "https://airtalkwireless.com/",
-    linkGit: ""
+    linkGit: "",
   },
   {
     title: "E-Commerce",
-    description:
-      "Full stack e-commerce website written in MERN stack.",
-    tags: ["React", "Nodejs", "Expressjs", "MongoDB", "Material UI", "Redux Toolkit", "Stripejs"],
+    description: "Full stack e-commerce website written in MERN stack.",
+    tags: [
+      "React",
+      "Nodejs",
+      "Expressjs",
+      "MongoDB",
+      "Material UI",
+      "Redux Toolkit",
+      "Stripejs",
+    ],
     imageUrl: ecom,
     linkWeb: "https://mernstack-ecommerce-03q21.netlify.app/",
-    linkGit: "https://github.com/quangnphan/mern-stack-ecommerce"
+    linkGit: "https://github.com/quangnphan/mern-stack-ecommerce",
   },
   {
     title: "Admin Dashboard",
@@ -97,7 +103,7 @@ export const projectsData = [
     tags: ["React", "Expressjs", "Nodejs", "MongoDB", "Material UI"],
     imageUrl: ecomAdmin,
     linkWeb: "https://admin-ecom-qp0321.netlify.app/",
-    linkGit: "https://github.com/quangnphan/admin-ecommerce"
+    linkGit: "https://github.com/quangnphan/admin-ecommerce",
   },
   {
     title: "Youtube",
@@ -106,16 +112,15 @@ export const projectsData = [
     tags: ["React", "Material UI", "react-router-dom", "Axios"],
     imageUrl: youtubeApp,
     linkWeb: "https://youtube-appppp.netlify.app/",
-    linkGit: "https://github.com/quangnphan/youtube-clone-v2"
+    linkGit: "https://github.com/quangnphan/youtube-clone-v2",
   },
   {
     title: "Tip Calculator",
-    description:
-      "Simple app to quickly calculate the tip for each person.",
+    description: "Simple app to quickly calculate the tip for each person.",
     tags: ["React", "CSS"],
     imageUrl: tipCal,
     linkWeb: "https://quangnphan.github.io/tip-calculator/",
-    linkGit: "https://github.com/quangnphan/tip-calculator"
+    linkGit: "https://github.com/quangnphan/tip-calculator",
   },
 ] as const;
 
@@ -139,5 +144,5 @@ export const skillsData = [
   "Material UI",
   "Kendo UI",
   "SCSS/SASS",
-  "ActiveReportsJS"
+  "ActiveReportsJS",
 ] as const;
